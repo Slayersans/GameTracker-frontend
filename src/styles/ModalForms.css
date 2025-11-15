@@ -1,0 +1,71 @@
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.modal-form h3 {
+  color: #4b0082;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.modal-form label {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.modal-form input,
+.modal-form select,
+.modal-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.modal-form input:focus,
+.modal-form select:focus,
+.modal-form textarea:focus {
+  border-color: #7a42f4;
+}
+
+.modal-form textarea {
+  resize: none;
+  min-height: 80px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.modal-buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: 500;
+}
+
+.modal-buttons button:hover {
+  opacity: 0.9;
+}
+
+.modal-buttons button:last-child {
+  background-color: #7a42f4;
+  color: white;
+}
+
+.modal-buttons .delete {
+  background-color: #e74c3c;
+  color: white;
+}

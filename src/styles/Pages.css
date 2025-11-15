@@ -1,0 +1,84 @@
+/* --- GENERAL PAGE LAYOUT --- */
+.page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  color: #333;
+}
+
+.page-container h2 {
+  color: #4b0082;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.page-container h3 {
+  color: #5f2dbd;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page-container p {
+  margin-bottom: 0.5rem;
+}
+
+.page-container button {
+  background-color: #7a42f4;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.page-container .button{
+  margin-bottom: 1rem;
+}
+
+.page-container button:hover {
+  background-color: #5f2dbd;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+/* --- GAME DETAILS --- */
+.game-details {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+}
+
+.game-details img {
+  width: 180px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.game-details p {
+  margin: 0.3rem 0;
+}
+
+.reviews-section {
+  margin-top: 2rem;
+}
+
+.reviews-section h2 {
+  text-align: left;
+  color: #4b0082;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 600px) {
+  .page-container {
+    padding: 1rem;
+  }
+}
